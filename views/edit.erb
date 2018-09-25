@@ -1,0 +1,31 @@
+<h1>Edit Pizza Order</h1>
+
+<!-- label for and input id should match -->
+<form method="post" action="/pizza-orders/<%= @order.id %>">
+  <label for ="first-name">First Name:</label>
+  <input id="first-name" type="text" name="first_name" value="<%= @order.first_name %>" required/>
+  <p></p>
+
+  <label for ="last-name">Last Name:</label>
+  <input id="last-name" type="text" name="last_name" value="<%= @order.last_name %>" required/>
+  <p></p>
+
+  <label for ="pizza-select">Select a pizza:</label>
+  <select id="pizza-select" name="topping">
+    <option value=""></option>
+    <option value="Margherita">Margherita</option>
+    <option value="Pepperoni">Pepperoni</option>
+  </select>
+  <p></p>
+
+  <label for ="quantity">Quantity:</label>
+  <input id="quantity" type="number" name="quantity" value="<%= @order.quantity %>" required/>
+  <p></p>
+
+  <input type="submit" value="Change Order" />
+</form>
+
+<p></p>
+<form method="post" action="/pizza-orders/<%= @order.id %>/delete">
+  <input type="submit" value="Delete Order" />
+</form>

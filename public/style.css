@@ -1,0 +1,89 @@
+body {
+  font-family: Helvetica;
+  background-color: #BCBCBE;
+  background-image: url(http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c1e0.png);
+  background-size: 700px 700px;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 28px;
+  color: #111;
+  background-color: #BCBCBE;
+  padding: 5px 5px;
+  width: 300px;
+}
+
+ul {
+    font-family: Helvetica;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    font-family: Helvetica;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #111;
+  text-align: left;
+  margin-left: 15px;
+}
+
+label {
+  font-family: Helvetica;
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+
+}
+
+input[type=submit] {
+  font-family: Helvetica;
+  background-color: #111;
+  margin: 4px 3px;
+  color: white;
+  padding: 12px 24px;
+  width: 200px;
+  height:40px;
+}
+
+p a {
+    font-family: Helvetica;
+    background-color: #111;
+    margin: 4px 3px;
+    color: white;
+    padding: 6px 10px;
+    width: 200px;
+    height:50px;
+  }
+
+p a:hover {
+  color: #BCBCBE;
+}
+
+.img {
+  opacity: 0.3;
+}
